@@ -1,0 +1,39 @@
+#aurthor{
+    padding: 68px 0;
+}
+.aurthor_wrapper{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.aurthor_img{
+    width: 357px;
+    height: 454px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.aurthor_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.aurthor_item h3{
+    padding-top: 16px;
+    color: #203239;
+    font-family: var(--popen);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 262px;
+}
+.aurthor_item p{
+    color: #203239;
+    font-family: var(--popen);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 356px;
+}

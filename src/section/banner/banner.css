@@ -1,0 +1,114 @@
+#banner{
+    padding: 130px 0 60px 0;
+    background-color: #EEEDDE;
+}
+.banner_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_content{
+    padding-top: 70px;
+}
+.banner_content h1{
+    color: #203239;
+    font-family: var(--popen);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    width: 777px;
+}
+.banner_content p{
+    margin-top: 24px;
+    color: rgba(32, 50, 57, 0.55);
+    font-family: var(--popen);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    width: 544px;
+}
+.banner_search{
+    margin-top: 65px;
+    width: 675px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.banner_search form{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.banner_search input{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    padding: 23px 160px 23px 56px;
+    font-family: var(--popen);
+    color: #203239;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+
+}
+.banner_search input::placeholder{
+    color: rgba(32, 50, 57, 0.55);
+    font-size: 16px;
+}
+.banner_search i{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    color: #203239;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner_search button{
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 13px 40px;
+    background-color: #203239;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: var(--popen);
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    cursor: pointer;
+}
+.counter_wrapper{
+    width: 590px;
+    display: flex;
+    column-gap: 72px;
+}
+.counter_item{
+    padding-top: 56px;
+    width: 148px;
+}
+.counter_item span{
+    color: #203239;
+    font-family: var(--popen);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.counter_item span span {
+	color: #F6762E;
+	margin-left: -15px;
+}
+.counter_item>p{
+    color: rgba(32, 50, 57, 0.55);
+    font-family: var(--popen-);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 142px;
+    margin-top: 0;
+}
