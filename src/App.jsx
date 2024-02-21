@@ -1,3 +1,4 @@
+import { Partnership } from "./section/Partnership/Partnership"
 import { Author } from "./section/author/Author"
 import Banner from "./section/banner/Banner"
 import { Favorite } from "./section/favorite/Favorite"
@@ -14,6 +15,7 @@ const App = () => {
       <Property/>
       <Favorite/>
       <Author/>
+      <Partnership/>
     </>
   )
 }
